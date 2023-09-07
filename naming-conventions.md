@@ -388,7 +388,7 @@ Structure your changes logically inside a migration file, and use comments to ex
 ### 📝 Example File Structure
 
 ```typescript
-import {MigrationInterface, QueryRunner} from "typeorm";
+import type { MigrationInterface, QueryRunner } from "typeorm";
 
 export class CreateUser1632394740324 implements MigrationInterface {
 
