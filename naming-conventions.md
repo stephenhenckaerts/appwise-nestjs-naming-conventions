@@ -381,7 +381,7 @@ The naming conventions outlined above are guidelines to help maintain consistenc
 
 Structure your changes logically inside a migration file, and use comments to explain complex alterations. Each file should generally include:
 
-- A vivid description of the migration at the top of the file.
+- A clear description of the purpose and workings of the migration.
 - The `up` method to enact the migration.
 - The `down` method to revert the migration.
 
