@@ -354,7 +354,7 @@ export class IsUniqueUsername implements ValidatorConstraintInterface {
 
 ## 🚀 Migrations
 
-Migrations play a vital role in tracking and managing changes to the database schema. Here are the modified conventions to follow when creating or modifying migration files in the project:
+Migrations play a vital role in tracking and managing changes to the database schema. Here are the conventions to follow when creating or modifying migration files in the project:
 
 ### 📁 File Naming Conventions
 
