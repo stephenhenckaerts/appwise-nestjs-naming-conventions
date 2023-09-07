@@ -17,44 +17,28 @@
 ### ⚙️ Function Naming Conventions 
 
 #### 🛠️ Creating an Entity 
-- **Function Name**: `createOne`
+- **Function Name**: `create`
   - 📘 **Description**: Function to create and return a single entity.
-  - 🔍 **Example**: createOne
-
-- **Function Name**: `createMany`
-  - 📘 **Description**: Function to create and return multiple entities at once.
-  - 🔍 **Example**: createMany
+  - 🔍 **Example**: create
 
 #### 🔍 Finding Entities 
-- **Function Name**: `findOne`
+- **Function Name**: `get`
   - 📘 **Description**: Function to find and return a single entity by its UUID.
-  - 🔍 **Example**: findOne
+  - 🔍 **Example**: get
 
-- **Function Name**: `findAll`
+- **Function Name**: `index`
   - 📘 **Description**: Function to find and return all entities.
-  - 🔍 **Example**: findAll
-
-- **Function Name**: `findOneBy<Property>`
-  - 📘 **Description**: Function to find and return a single entity based on a specific property other than UUID (e.g., `findOneByEmail`).
-  - 🔍 **Example**: findOneByEmail
+  - 🔍 **Example**: index
 
 #### ♻️ Updating Entities 
-- **Function Name**: `updateOne`
+- **Function Name**: `update`
   - 📘 **Description**: Function to update and return a single entity by its UUID.
-  - 🔍 **Example**: updateOne
-
-- (Optional) **Function Name**: `updateMany`
-  - 📘 **Description**: Function to update and return multiple entities based on certain conditions (if applicable).
-  - 🔍 **Example**: updateMany
+  - 🔍 **Example**: update
 
 #### 🗑️ Deleting Entities 
-- **Function Name**: `deleteOne`
+- **Function Name**: `delete`
   - 📘 **Description**: Function to delete a single entity by its UUID.
-  - 🔍 **Example**: deleteOne
-
-- (Optional) **Function Name**: `deleteMany`
-  - 📘 **Description**: Function to delete multiple entities based on certain conditions (if applicable).
-  - 🔍 **Example**: deleteMany
+  - 🔍 **Example**: delete
 
 
 ---
