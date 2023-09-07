@@ -291,25 +291,15 @@ Seeder classes are crucial in populating the database with initial data for test
 - **Class Name**: Should be in PascalCase, followed by the word 'Seeder'.
   - 🔍 **Example**: `UserSeeder`, `AddressSeeder`
 
-### 🖊 Interface for Options
-
-- **Seeder Options Interface**: Instead of a property inside the seeder class, define an interface separately to outline the options. This interface should outline the attributes and relations that can be set explicitly, otherwise, a faking library will assign random values.
-  - 🔍 **Example**:
-
-    ```typescript
-    interface UserSeederOptions {
-      firstName?: string;
-      lastName?: string;
-      address?: string;
-      // ...other properties
-    }
-    
+- **Method Names**: Use `seedOne` and `seedMany`.
+  - 🔍 **Example**: 
+    ```    
     class UserSeeder {
-      seedOne(options?: UserSeederOptions) {
+      seedOne(...) ... {
         // ...
       }
       
-      seedMany(amount: number, options?: UserSeederOptions) {
+      seedMany(...) ... {
         // ...
       }
     }
