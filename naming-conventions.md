@@ -224,11 +224,6 @@
   - 📘 **Description**: Deletes multiple entities matching the criteria.
   - 🔍 **Example**: deleteMany(criteria)
 
-#### 🎛️ Custom Operations
-- **Function Name**: `custom<OperationName>(parameters)`
-  - 📘 **Description**: For custom operations not covered by the above categories. Be descriptive with the operation name to clearly indicate the function's behavior (e.g., `customMergeTagData(tagData)`).
-  - 🔍 **Example**: customMergeTagData(tagData)
-
 ### 🚫 Prohibited Practices
 
 #### ⚠️ Duplicating Basic Operations
