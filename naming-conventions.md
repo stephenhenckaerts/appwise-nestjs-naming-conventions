@@ -406,7 +406,7 @@ export class CreateUser1632394740324 implements MigrationInterface {
 
 ## 🌐 Query Parameters
 
-Query parameters are utilized to filter, sort, and perform searches on the dataset in various API endpoints. These parameters are categorized into 'sort', 'like', and 'match'. Here are the conventions to follow when implementing and using these query parameters:
+Query parameters are categorized into 'sort', 'like', and 'match'.
 
 ### ⬆️⬇️ Sort
 
