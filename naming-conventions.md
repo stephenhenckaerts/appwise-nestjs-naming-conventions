@@ -164,13 +164,13 @@
   - 🔍 **Example**: `deleteMany`
 
 #### 🧮 Utilitarian Functions
-- **Function Name**: `countAll`
+- **Function Name**: `count`
   - 📘 **Description**:: To count all entities.
-  - 🔍 **Example**: `countAll`
+  - 🔍 **Example**: `count`
   
-- **Function Name**: `countAllBy<Property>`
+- **Function Name**: `countBy<Property>`
   - 📘 **Description**:: To count entities based on a certain property.
-  - 🔍 **Example**: `countAllByEmail`
+  - 🔍 **Example**: `countByEmail`
 
 #### 🔎 Specific Find Operations
 - **Function Name**: `findOneBy<Property>And<AnotherProperty>`
