@@ -385,11 +385,6 @@ Structure your changes logically inside a migration file, and use comments to ex
 - The `up` method to enact the migration.
 - The `down` method to revert the migration.
 
-### 🔎 Additional Guidelines
-
-- **Single Responsibility**: Aim to have each migration file handle a single concern, keeping changes isolated and comprehensible.
-- **Testing**: It's essential to rigorously test migration files to ensure they implement and reverse changes correctly without introducing bugs.
-
 ### 📝 Example File Structure
 
 ```typescript
