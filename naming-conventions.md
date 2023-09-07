@@ -242,9 +242,9 @@
   - 🔍 **Example**: `firstName`, `emailAddress`
 
 - **Relations**:
-  - **One-to-One**: The property name should be singular and clearly represent the related entity.
+  - **One-to-One and Many-to-One**: The property name should be singular and clearly represent the related entity.
     - 🔍 **Example**: `profile`, `address`
-  - **One-to-Many / Many-to-One**: The property name should be plural and clearly represent the related entities.
+  - **One-to-Many**: The property name should be plural and clearly represent the related entities.
     - 🔍 **Example**: `posts`, `comments`
   - **Many-to-Many**: Always create separate entities for each many-to-many relationship. Name them in alphabetical order.
     - **Example (bi-directional)**: `AddressUser`, `GroupMember`
