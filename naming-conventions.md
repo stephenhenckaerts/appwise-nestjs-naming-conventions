@@ -422,8 +422,8 @@ The 'match' parameter allows filtering results based on an exact match for speci
 - Parameter Name: `match`
 - Structure: `{<property>:[value1,value2,...]}`
 - Property names should be singular, even when matching multiple values.
-- Example: `match={username:[john,doe]}`
-- Example (Relation): `match={petUuid:[123,456],petName:[fluffy,spot]}`
+- Example: `match: { username: [ 'john', 'doe' ] }`
+- Example (Relation): `match: { petUuid: [ 123, 456 ], petName: [ 'fluffy', 'spot' ] }`
 
 ### 🔄 Like
 
