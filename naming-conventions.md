@@ -307,15 +307,6 @@ Seeder classes are crucial in populating the database with initial data for test
     userSeeder.seedMany(5);
     ```
 
-### 🚫 Prohibited Practices
-
-- **Complex Seeder Methods**: Avoid creating methods that seed multiple related entities within a single method, like `seedUserWithPets`. Each seeder class should focus solely on seeding its respective entity. To seed entities with relations, use the respective seeder class to seed the related entities first, and then pass them through the `options` parameter when seeding the main entity.
-  - 🔍 **Example**:
-
-    ```typescript
-    const seededPets = PetSeeder.seedMany(3, { ... });
-    UserSeeder.seedOne({ pets: seededPets, ... });
-    ```
 ## 🛡️ Custom Validators
 
 To validate complex or specific business rules, the creation of custom validators with class-validator is encouraged. These custom validators enhance the validation process by allowing the enforcement of custom-defined rules on the data. Here are some conventions to follow when creating custom validators:
