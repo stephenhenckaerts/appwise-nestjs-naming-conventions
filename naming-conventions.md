@@ -413,9 +413,7 @@ Query parameters are categorized into 'sort', 'like', and 'match'.
 The 'sort' parameter is used to order the results based on specified properties and a direction ('ASC' for ascending and 'DESC' for descending). Here is how it should be used:
 
 - Parameter Name: `sort`
-- Structure: `{<property>:(ASC|DESC)}`
-- Multiple sorting can be applied using comma separation inside the object.
-- Example: `sort={createdOn:DESC,username:ASC}`
+- Structure: `{ <property>: '' ASC' | 'DESC  }`
 
 ### 🎯 Match
 
