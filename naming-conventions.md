@@ -27,7 +27,7 @@
 
 #### 🔍 Finding Entities 
 - **Function Name**: `findOne`
-  - 📘 **Description**: Function to find and return a single entity by its ID.
+  - 📘 **Description**: Function to find and return a single entity by its UUID.
   - 🔍 **Example**: findOne
 
 - **Function Name**: `findAll`
@@ -35,12 +35,12 @@
   - 🔍 **Example**: findAll
 
 - **Function Name**: `findOneBy<Property>`
-  - 📘 **Description**: Function to find and return a single entity based on a specific property other than ID (e.g., `findOneByEmail`).
+  - 📘 **Description**: Function to find and return a single entity based on a specific property other than UUID (e.g., `findOneByEmail`).
   - 🔍 **Example**: findOneByEmail
 
 #### ♻️ Updating Entities 
 - **Function Name**: `updateOne`
-  - 📘 **Description**: Function to update and return a single entity by its ID.
+  - 📘 **Description**: Function to update and return a single entity by its UUID.
   - 🔍 **Example**: updateOne
 
 - (Optional) **Function Name**: `updateMany`
@@ -49,7 +49,7 @@
 
 #### 🗑️ Deleting Entities 
 - **Function Name**: `deleteOne`
-  - 📘 **Description**: Function to delete a single entity by its ID.
+  - 📘 **Description**: Function to delete a single entity by its UUID.
   - 🔍 **Example**: deleteOne
 
 - (Optional) **Function Name**: `deleteMany`
@@ -275,7 +275,7 @@
 ### ✅ Preferred Properties
 
 - **UUIDs**: Always prefer using UUIDs as identifiers to ensure uniqueness and security.
-  - 🔍 **Example**: `userId`
+  - 🔍 **Example**: `userUuid`
 
 - **Timestamps**: Always include `createdAt` and `updatedAt` timestamp properties to track entity lifecycle events.
   - 🔍 **Example**: `createdAt`, `updatedAt`
@@ -320,7 +320,7 @@ Seeder classes are crucial in populating the database with initial data for test
         // ...
       }
       
-      seedMany(number: number, options?: UserSeederOptions) {
+      seedMany(amount: number, options?: UserSeederOptions) {
         // ...
       }
     }
@@ -516,7 +516,7 @@ Enums are used to define a set of named constants. The following conventions sho
   
   - **Enum Definition**:
     ```typescript
-    export enum UserStatusEnum {
+    export enum UserStatus {
       ACTIVE_STATUS = 'active_status',
       INACTIVE_STATUS = 'inactive_status',
     }
