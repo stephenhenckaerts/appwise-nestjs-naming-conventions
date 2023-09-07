@@ -246,8 +246,8 @@
     - 🔍 **Example**: `profile`, `address`
   - **One-to-Many**: The property name should be plural and clearly represent the related entities.
     - 🔍 **Example**: `posts`, `comments`
-  - **Many-to-Many**: Always create separate entities for each many-to-many relationship. Name them in alphabetical order.
-    - **Example (bi-directional)**: `AddressUser`, `GroupMember`
+  - **Many-to-Many**: Always create separate entities for each many-to-many relationship.
+    - **Example**: `UserAddress`, `GroupMember`
 
 - **Date Properties**: Use "On" to indicate date properties.
   - 🔍 **Example**: `createdOn`, `updatedOn`
