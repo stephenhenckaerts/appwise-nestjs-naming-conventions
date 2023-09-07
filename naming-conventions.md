@@ -223,12 +223,6 @@
 - **Function Name**: `deleteMany(criteria)`
   - 📘 **Description**: Deletes multiple entities matching the criteria.
   - 🔍 **Example**: deleteMany(criteria)
-
-### 🚫 Prohibited Practices
-
-#### ⚠️ Duplicating Basic Operations
-- Avoid duplicating basic CRUD operations that are already covered by TypeORM's default repository methods. Utilize the existing methods wherever possible and create custom repository functions only for more specific or complex operations.
-
 ---
 
 ## 📄 Entities
