@@ -533,3 +533,27 @@ Environment variables are used to manage configurable values in the application.
   - `DATABASE_URL`
   - `EXTERNALSERVICE_AUTH_SECRET`
   - `APP_PORT`
+
+
+---
+
+## 📚 References & Further Reading
+
+In your journey to mastering naming conventions in NestJS, you may find the following resources beneficial:
+
+1. 📖 **[NestJS Documentation](https://docs.nestjs.com/)**
+   - The official documentation provides a comprehensive guide to various aspects of NestJS, including best practices for naming conventions.
+   
+2. 📚 **[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)**
+   - This book by Robert C. Martin offers insights into writing clean, maintainable, and scalable code, which includes adhering to effective naming conventions.
+   
+3. 💻 **[TypeScript Naming Conventions](https://basarat.gitbook.io/typescript/styleguide#naming)**
+   - A guide that outlines the naming conventions commonly used in TypeScript projects, which can be applied to NestJS projects as well.
+
+4. 🎓 **[NestJS Best Practices](https://wanago.io/courses/nest-js-best-practices/)**
+   - A course that delves deep into the best practices of building applications with NestJS, including naming conventions.
+
+5. 🌐 **Community Forums and Blogs**
+   - Engaging with the community through forums and blogs can provide real-world insights and tips on adhering to naming conventions in NestJS projects. Platforms like [Stack Overflow](https://stackoverflow.com/questions/tagged/nestjs) and [NestJS GitHub Discussions](https://github.com/nestjs/nest/discussions) can be good starting points.
+
+Remember, the key to mastering naming conventions lies in consistent practice and learning from the experiences of seasoned developers in the community. Happy coding!
