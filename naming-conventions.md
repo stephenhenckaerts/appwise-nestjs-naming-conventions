@@ -342,8 +342,7 @@ import { ValidatorConstraint, ValidatorConstraintInterface, ValidationArguments 
 export class IsUniqueUsername implements ValidatorConstraintInterface {
 
     validate(username: any, args: ValidationArguments) {
-        // Custom validation logic
-        return true; // return false if the validation fails
+        // validate uniqueness
     }
 
     defaultMessage(args: ValidationArguments) {
