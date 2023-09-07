@@ -20,6 +20,9 @@
 - **Function Name**: `create`
   - 📘 **Description**: Function to create and return a single entity.
   - 🔍 **Example**: create
+- (Optional) **Function Name**: `createBulk`
+  - 📘 **Description**: Function to create and return multiple entities based on certain conditions (if applicable).
+  - 🔍 **Example**: createBulk
 
 #### 🔍 Finding Entities 
 - **Function Name**: `show`
@@ -34,11 +37,17 @@
 - **Function Name**: `update`
   - 📘 **Description**: Function to update and return a single entity by its UUID.
   - 🔍 **Example**: update
+- (Optional) **Function Name**: `updateBulk`
+  - 📘 **Description**: Function to update and return multiple entities based on certain conditions (if applicable).
+  - 🔍 **Example**: updateBulk
 
 #### 🗑️ Deleting Entities 
 - **Function Name**: `delete`
   - 📘 **Description**: Function to delete a single entity by its UUID.
   - 🔍 **Example**: delete
+- (Optional) **Function Name**: `deleteBulk`
+  - 📘 **Description**: Function to delete multiple entities based on certain conditions (if applicable).
+  - 🔍 **Example**: deleteBulk
 
 
 ---
