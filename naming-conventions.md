@@ -436,27 +436,13 @@ The 'like' parameter facilitates searching for partial matches in the dataset, b
 
 ---
 
-## 🛠 General Conventions
-
-This section outlines the general conventions that should be followed across different aspects of the codebase including functions, enums, and environment variables.
-
-### 🎛 Functions
-
-- **Visibility**: The visibility of functions (public, private, protected, etc.) should always be explicitly defined.
-- **Examples**:
-  ```typescript
-  public getUser() { ... }
-  private validateInput(input: any) { ... }
-  protected formatResponse(response: any) { ... }
-  ```
-
 ### 🚀 Enums
 
 Enums are used to define a set of named constants. The following conventions should be adhered to when working with enums:
 
-- **Naming Convention**: Enums should be in camelCase and should end with the word "Enum". 
+- **Naming Convention**: Enums should be in camelCase. 
 - **Key**: The keys should be in UPPER_SNAKE_CASE.
-- **Value**: The values should be in lower_snake_case.
+- **Value**: The values should be in lower_snake_case when the values are strings.
 - **File Name**: The file name should follow kebab-case, similar to other files, and end with `.enum.ts`.
   
   #### Examples:
