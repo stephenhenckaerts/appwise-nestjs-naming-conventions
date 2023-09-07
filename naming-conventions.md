@@ -430,9 +430,9 @@ The 'match' parameter allows filtering results based on an exact match for speci
 The 'like' parameter facilitates searching for partial matches in the dataset, based on a single string.
 
 - Parameter Name: `like`
-- Structure: `{<property>:<partial-string>}`
-- Example: `like={username:jo}`
-- Example (Relation): `like={petName:fluf}`
+- Structure: `{ <property>: <partial-string> }`
+- Example: `like: { username: 'jo' }`
+- Example (Relation): `like: { petName: 'fluf' }`
 
 ---
 
