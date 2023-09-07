@@ -516,7 +516,7 @@ Enums are used to define a set of named constants. The following conventions sho
   
   - **Enum Definition**:
     ```typescript
-    export enum UserStatus {
+    export enum UserStatusEnum {
       ACTIVE_STATUS = 'active_status',
       INACTIVE_STATUS = 'inactive_status',
     }
