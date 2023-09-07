@@ -291,34 +291,20 @@ Seeder classes are crucial in populating the database with initial data for test
 - **Class Name**: Should be in PascalCase, followed by the word 'Seeder'.
   - 🔍 **Example**: `UserSeeder`, `AddressSeeder`
 
-- **Method Names**: Use `seedOne` and `seedMany`.
-  - 🔍 **Example**: 
-    ```    
-    class UserSeeder {
-      seedOne(...) ... {
-        // ...
-      }
-      
-      seedMany(...) ... {
-        // ...
-      }
-    }
-    ```
-
 ### 🛠 Main Methods
 
-- **seedOne(options?)**: This method seeds a single entity. The `options` parameter is optional, and if not provided, attributes will be assigned random values by a faking library.
+- **seedOne()**: This method seeds a single entity. 
   - **Usage**:
 
     ```typescript
-    userSeeder.seedOne({ firstName: 'John', lastName: 'Doe' });
+    userSeeder.seedOne();
     ```
 
-- **seedMany(number, options?)**: This method seeds multiple entities at once. The first parameter is the number of entities to seed, followed by an optional `options` parameter. If `options` are not provided, attributes will be assigned random values by a faking library.
+- **seedMany(number, options?)**: This method seeds multiple entities at once.
   - **Usage**:
 
     ```typescript
-    userSeeder.seedMany(5, { firstName: 'John', lastName: 'Doe' });
+    userSeeder.seedMany(5);
     ```
 
 ### 🚫 Prohibited Practices
