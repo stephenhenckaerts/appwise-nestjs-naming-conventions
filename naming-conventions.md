@@ -22,9 +22,9 @@
   - 🔍 **Example**: create
 
 #### 🔍 Finding Entities 
-- **Function Name**: `get`
+- **Function Name**: `show`
   - 📘 **Description**: Function to find and return a single entity by its UUID.
-  - 🔍 **Example**: get
+  - 🔍 **Example**: show
 
 - **Function Name**: `index`
   - 📘 **Description**: Function to find and return all entities.
