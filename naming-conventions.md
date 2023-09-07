@@ -258,7 +258,7 @@
 - **Soft Deletes**: Use `deletedAt` to indicate soft delete timestamp properties.
   - 🔍 **Example**: `deletedAt`
 
-- **Foreign Key Properties**: For foreign keys, use a combination of the related properties followed by 'Uuid'.
+- **Foreign Key Properties**: For foreign keys, use a combination of the related entity name followed by the name of the primary identifier of that entity.
   - 🔍 **Example**: `addressUuid`
 
 ### ✅ Preferred Properties
