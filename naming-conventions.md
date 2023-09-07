@@ -314,7 +314,7 @@ To validate complex or specific business rules, the creation of custom validator
 ### 📄 File Naming Conventions
 
 - **Filename**: Custom validators should be named clearly to indicate their functionality. The general pattern should be: `<functionality>.validator.ts`
-  - 🔍 **Example**: `is-unique-username.validator.ts`, `is-valid-date.validator.ts`
+  - 🔍 **Example**: `is-unique-username.validator.ts`, `is-date.validator.ts`
 
 ### 🏷️ Class Naming Conventions
 
