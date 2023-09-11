@@ -72,8 +72,8 @@
   - 🔍 **Example**: `user.service.interface.ts` 
 
 #### 🎭 Mock Implementation for Service
-- **Filename**: `<entity>.mock.service.ts`
-  - 🔍 **Example**: `user.mock.service.ts` 
+- **Filename**: `<entity>.service.mock.ts`
+  - 🔍 **Example**: `user.service.mock.ts` 
 
 #### 💑 Multiple Entities (Relations)
 - **Filename**: `<entity1>-<entity2>.service.ts`
