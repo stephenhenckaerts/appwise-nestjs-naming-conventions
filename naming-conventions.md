@@ -17,44 +17,37 @@
 ### ⚙️ Function Naming Conventions 
 
 #### 🛠️ Creating an Entity 
-- **Function Name**: `createOne`
+- **Function Name**: `create`
   - 📘 **Description**: Function to create and return a single entity.
-  - 🔍 **Example**: createOne
-
-- **Function Name**: `createMany`
-  - 📘 **Description**: Function to create and return multiple entities at once.
-  - 🔍 **Example**: createMany
+  - 🔍 **Example**: create
+- (Optional) **Function Name**: `createBulk`
+  - 📘 **Description**: Function to create and return multiple entities based on certain conditions (if applicable).
+  - 🔍 **Example**: createBulk
 
 #### 🔍 Finding Entities 
-- **Function Name**: `findOne`
+- **Function Name**: `show`
   - 📘 **Description**: Function to find and return a single entity by its UUID.
-  - 🔍 **Example**: findOne
+  - 🔍 **Example**: show
 
-- **Function Name**: `findAll`
+- **Function Name**: `index`
   - 📘 **Description**: Function to find and return all entities.
-  - 🔍 **Example**: findAll
-
-- **Function Name**: `findOneBy<Property>`
-  - 📘 **Description**: Function to find and return a single entity based on a specific property other than UUID (e.g., `findOneByEmail`).
-  - 🔍 **Example**: findOneByEmail
+  - 🔍 **Example**: index
 
 #### ♻️ Updating Entities 
-- **Function Name**: `updateOne`
+- **Function Name**: `update`
   - 📘 **Description**: Function to update and return a single entity by its UUID.
-  - 🔍 **Example**: updateOne
-
-- (Optional) **Function Name**: `updateMany`
+  - 🔍 **Example**: update
+- (Optional) **Function Name**: `updateBulk`
   - 📘 **Description**: Function to update and return multiple entities based on certain conditions (if applicable).
-  - 🔍 **Example**: updateMany
+  - 🔍 **Example**: updateBulk
 
 #### 🗑️ Deleting Entities 
-- **Function Name**: `deleteOne`
+- **Function Name**: `delete`
   - 📘 **Description**: Function to delete a single entity by its UUID.
-  - 🔍 **Example**: deleteOne
-
-- (Optional) **Function Name**: `deleteMany`
+  - 🔍 **Example**: delete
+- (Optional) **Function Name**: `deleteBulk`
   - 📘 **Description**: Function to delete multiple entities based on certain conditions (if applicable).
-  - 🔍 **Example**: deleteMany
+  - 🔍 **Example**: deleteBulk
 
 
 ---
@@ -516,7 +509,7 @@ Enums are used to define a set of named constants. The following conventions sho
   
   - **Enum Definition**:
     ```typescript
-    export enum UserStatus {
+    export enum UserStatusEnum {
       ACTIVE_STATUS = 'active_status',
       INACTIVE_STATUS = 'inactive_status',
     }
